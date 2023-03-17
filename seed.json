@@ -1,0 +1,50 @@
+{
+    "doctor": [
+        {
+            "first_name": "Mousumi",
+            "last_name": "Deb",
+            "age": 26
+        },
+        {
+            "first_name": "Jenny",
+            "last_name": "Doorb",
+            "age": 23
+        },
+        {
+            "first_name": "Riahanna",
+            "last_name": "Jonson",
+            "age": 26
+        },
+        {
+            "first_name": "Adam",
+            "last_name": "Bondeb",
+            "age": 26
+        }
+    ],
+    "nurse": [
+        {
+            "nurse_name": "Alexa",
+            "working_hour": 8,
+            "room_num": 3,
+            "doctor_id": 1
+        },
+        {
+            "nurse_name": "Lisa",
+            "working_hour": 8,
+            "room_num": 2,
+            "doctor_id": 2
+        },
+        {
+            "nurse_name": "Anna",
+            "working_hour": 8,
+            "room_num": 3,
+            "doctor_id": 4
+        },
+        {
+            "nurse_name": "Cindrella",
+            "working_hour": 8,
+            "room_num": 5,
+            "doctor_id": 4
+        }
+    ]
+}
