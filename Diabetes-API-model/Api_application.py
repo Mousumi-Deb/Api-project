@@ -6,7 +6,7 @@ import requests
 # Define the URL of the API endpoint
 url = 'http://127.0.0.1:8000/Diabetes_prediction_app'
 
-# Define input data for the model
+# Define input data for the model.
 input_model_data = {
     'pregnancies': 5,
     'Glucose': 166,
