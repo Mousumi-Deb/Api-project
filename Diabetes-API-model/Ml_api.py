@@ -17,7 +17,7 @@ class model_input(BaseModel):
     SkinThickness: int
     Insulin: int
     BMI: float
-    DiavetesPredigreeFunction: float
+    DiabetesPedigreeFunction: float
     Age: int
 
 # load the saved diabetes model
@@ -28,12 +28,12 @@ diabetes_model = pickle.load(open('diabetic_model.sav', 'rb'))
 # create a API model
 
 
-@app.post('/Diabetes_prediction_app')
+@app.post('/diabetes_prediction_app')
 def diabetes_prediction(input_parameters: model_input):
-    input_data = input_parameters
+    input_data = input_parameters.json()
     input_dict = json.loads(input_data)
 
-    preg = input_dict['pregnancies']
+    preg = input_dict['Pregnancies']
     glu = input_dict['Glucose']
     bp = input_dict['BloodPressure']
     skin = input_dict['SkinThickness']
