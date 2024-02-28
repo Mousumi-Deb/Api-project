@@ -1,4 +1,4 @@
 
-This is Diabetes API project
-I created a project using machine learning saving th emodel and run api app for predict the diabetes.
+This is Diabetes API project. 
+I created a project using machine learning, then saving the model and run api app for predict the diabetes.
 
